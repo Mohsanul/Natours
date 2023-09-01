@@ -1,0 +1,26 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohsanul/Natours.git"
+  },
+  "author": "mosam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohsanul/Natours/issues"
+  },
+  "homepage": "https://github.com/Mohsanul/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "g": "^2.0.1",
+    "live-server": "^1.2.2"
+  }
+}
